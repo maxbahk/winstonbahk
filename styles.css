@@ -50,6 +50,28 @@ body {
   display: block;
 }
 
+.image2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image2 img {
+  width: 85%;
+  height: auto;
+  display: block;
+}
+
+.image3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image3 img {
+  width: 85%;
+  height: auto;
+  display: block;
+}
+
 /* Mobile */
 @media (max-width: 900px) {
   .container {
@@ -64,4 +86,21 @@ body {
   .image img {
     width: 100%;
   }
+
+  .image2 {
+    justify-content: flex-start;
+  }
+
+  .image2 img {
+    width: 100%;
+  }
+
+  .image3 {
+    justify-content: flex-start;
+  }
+
+  .image3 img {
+    width: 100%;
+  }
+
 }
